@@ -1,11 +1,10 @@
-import "./index.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./layout.jsx";
 import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
-import ProtectedRoute from "./components/ProtectedRoute.jsx"; // <- import
+import ProtectedRoute from "./components/ProtectedRoute.jsx";
 
 const router = createBrowserRouter([
   {
