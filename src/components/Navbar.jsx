@@ -64,14 +64,6 @@ const Navbar = () => {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <Link
-                to={""}
-                className="dropdown-item text-dark text-decoration-none"
-              >
-                Login
-              </Link>
-            </li>
-            <li>
               <a className="dropdown-item" onClick={LogOut}>
                 Logout
               </a>

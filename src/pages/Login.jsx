@@ -11,7 +11,6 @@ const SignupForm = () => {
       return;
     } else {
       const userName = userNameVal.toUpperCase();
-      console.log(userName);
       localStorage.setItem("username", userName);
       SetPassVal("");
       SetUserNameVal("");
